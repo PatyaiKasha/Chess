@@ -1,0 +1,40 @@
+.chess-pole {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background-color: #850000;
+  border: 1px solid #850000;
+  margin: 50px auto auto;
+
+  .white-top,
+  .white-bottom,
+  .white-left,
+  .white-right {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    img {
+      position: absolute;
+      height: 157px;
+      left: 59px;
+      top: 21px;
+    }
+  }
+  .white-top {
+    top: 0;
+    left: 200px;
+  }
+  .white-bottom {
+    bottom: 0;
+    left: 200px;
+  }
+  .white-left {
+    top: 200px;
+    left: 0;
+  }
+  .white-right {
+    right: 0;
+    top: 200px;
+  }
+}
