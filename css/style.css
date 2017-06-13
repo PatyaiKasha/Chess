@@ -1,37 +1,51 @@
 .chess-pole {
-  width: 600px;
-  height: 600px;
-  position: relative;
-  background-color: #850000;
-  border: 1px solid #850000;
-  margin: 50px auto auto; }
-  .chess-pole .white-top,
-  .chess-pole .white-bottom,
-  .chess-pole .white-left,
-  .chess-pole .white-right {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background-color: #850000;
+    border: 1px solid #850000;
+    margin: 50px auto auto;
+}
+
+.chess-pole .white-top,
+.chess-pole .white-bottom,
+.chess-pole .white-left,
+.chess-pole .white-right {
     width: 200px;
     height: 200px;
     background-color: #fff;
-    position: absolute; }
-    .chess-pole .white-top img,
-    .chess-pole .white-bottom img,
-    .chess-pole .white-left img,
-    .chess-pole .white-right img {
-      position: absolute;
-      height: 157px;
-      left: 59px;
-      top: 21px; }
-  .chess-pole .white-top {
+    position: absolute;
+}
+
+.chess-pole .white-top img,
+.chess-pole .white-bottom img,
+.chess-pole .white-left img,
+.chess-pole .white-right img {
+    position: absolute;
+    height: 157px;
+    left: 59px;
+    top: 21px;
+}
+
+.chess-pole .white-top {
     top: 0;
-    left: 200px; }
-  .chess-pole .white-bottom {
+    left: 200px;
+}
+
+.chess-pole .white-bottom {
     bottom: 0;
-    left: 200px; }
-  .chess-pole .white-left {
+    left: 200px;
+}
+
+.chess-pole .white-left {
     top: 200px;
-    left: 0; }
-  .chess-pole .white-right {
+    left: 0;
+}
+
+.chess-pole .white-right {
     right: 0;
-    top: 200px; }
+    top: 200px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
